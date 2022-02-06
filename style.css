@@ -1,0 +1,64 @@
+/*
+	comment = ctrl + shift + /
+	CSS - cascading stylesheet - used to design/style
+	our web pages.
+*/
+*{
+	font-family: "Roboto", sans-serif;
+	/*roboto is our font
+	san-serif is our fall back font if ever
+	the web page can't load in roboto. 
+	Because if the page can't load in roboto it 
+	will load in times new roman.
+	*/
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+h1,h2 {
+	font-family: "Montserrat", sans-serif;
+}
+img {
+	height: 250px;
+	width: 250px;
+}
+
+#landing {
+	height:80vh;
+	/* center the contents of landing horizontally and vertically*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#gallery {
+	height: 75vh;
+	/*center the contents of gallery horizontally and vertically*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 6px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+h2 {
+	color: #007bff;
+	/* in hexadecimal form- more specific color*/
+
+}
+
+.tools {
+	height: 200px;
+	border: 5px solid #f2f2f2;
+	padding: 25px;
+	margin: 20px;
+	width: 75%;
+}
